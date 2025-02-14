@@ -1,39 +1,183 @@
 [
-    {
-      "id": "finger-painting-1",
-      "category": "Indoor Activities",
-      "subcategory": "painting",
-      "title": "Finger Painting Fun",
-      "ageRange": "2-4",
-      "materials": ["Finger paints", "Large paper", "Apron or old clothes"],
-      "instructions": [
-        "Cover the table with paper.",
-        "Put a small amount of each paint color on the paper.",
-        "Let your child use their fingers to create colorful designs!",
-        "Wash hands thoroughly afterwards."
-      ],
-      "imageUrl": "icons/budugu-192.png",
-      "timeEstimate": "20-30 minutes",
-      "bestTime": "Anytime",
-      "suitableLocation": "Indoor",
-      "learningObjectives": ["Develop fine motor skills", "Explore colors", "Encourage creativity"]
-    },
-    {
-      "id": "nature-walk-1",
-      "category": "Outdoor Activities",
-      "subcategory": "nature",
-      "title": "Nature Walk Scavenger Hunt",
-      "ageRange": "3-6",
-      "materials": ["Scavenger hunt list", "Bag or basket"],
-      "instructions": [
-        "Create a list of items to find on a nature walk (e.g., a leaf, a rock, a feather).",
-        "Go on a nature walk and have your child find the items on the list.",
-        "Collect the items in a bag or basket."
-      ],
-      "imageUrl": "icons/budugu-192.png",
-      "timeEstimate": "30-45 minutes",
-      "bestTime": "Morning or Afternoon",
-      "suitableLocation": "Outdoor",
-      "learningObjectives": ["Learn about nature", "Develop observation skills", "Encourage physical activity"]
-    }
-  ]
+  {
+    "id": "finger-painting-1",
+    "category": "Indoor Activities",
+    "subcategory": "painting",
+    "title": "Finger Painting Fun",
+    "ageRange": "2-4",
+    "materials": ["Finger paints", "Large paper", "Apron or old clothes"],
+    "instructions": [
+      "Cover the table with paper.",
+      "Put a small amount of each paint color on the paper.",
+      "Let your child use their fingers to create colorful designs!",
+      "Wash hands thoroughly afterwards."
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "20-30 minutes",
+    "bestTime": "Anytime",
+    "suitableLocation": "Indoor",
+    "learningObjectives": ["Develop fine motor skills", "Explore colors", "Encourage creativity"]
+  },
+  {
+    "id": "nature-walk-1",
+    "category": "Outdoor Activities",
+    "subcategory": "nature",
+    "title": "Nature Walk Scavenger Hunt",
+    "ageRange": "3-6",
+    "materials": ["Scavenger hunt list", "Bag or basket"],
+    "instructions": [
+      "Create a list of items to find on a nature walk (e.g., a leaf, a rock, a feather).",
+      "Go on a nature walk and have your child find the items on the list.",
+      "Collect the items in a bag or basket."
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "30-45 minutes",
+    "bestTime": "Morning or Afternoon",
+    "suitableLocation": "Outdoor",
+    "learningObjectives": ["Learn about nature", "Develop observation skills", "Encourage physical activity"]
+  },
+  {
+    "id": "bubble-blowing-1",
+    "category": "Outdoor Activities",
+    "subcategory": "sensory",
+    "title": "Bubble Blowing Bonanza",
+    "ageRange": "2-5",
+    "materials": ["Bubble solution", "Bubble wands"],
+    "instructions": [
+      "Pour bubble solution into a container.",
+      "Dip the bubble wand into the solution.",
+      "Blow gently to create bubbles!"
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "15-20 minutes",
+    "bestTime": "Anytime",
+    "suitableLocation": "Outdoor",
+    "learningObjectives": ["Develop oral motor skills", "Explore cause and effect", "Encourage physical activity"]
+  },
+  {
+    "id": "story-time-1",
+    "category": "Indoor Activities",
+    "subcategory": "literacy",
+    "title": "Cozy Story Time",
+    "ageRange": "1-6",
+    "materials": ["Books"],
+    "instructions": [
+      "Choose a book.",
+      "Sit in a comfortable spot.",
+      "Read the book aloud!"
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "15-30 minutes",
+    "bestTime": "Anytime",
+    "suitableLocation": "Indoor",
+    "learningObjectives": ["Develop literacy skills", "Expand vocabulary", "Promote imagination"]
+  },
+  {
+    "id": "playdough-1",
+    "category": "Indoor Activities",
+    "subcategory": "sensory",
+    "title": "Playdough Creations",
+    "ageRange": "2-5",
+    "materials": ["Playdough", "Cookie cutters", "Rolling pin"],
+    "instructions": [
+      "Roll out the playdough.",
+      "Use cookie cutters to make shapes.",
+      "Create sculptures with your hands!"
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "20-30 minutes",
+    "bestTime": "Anytime",
+    "suitableLocation": "Indoor",
+    "learningObjectives": ["Develop fine motor skills", "Encourage creativity", "Explore shapes and colors"]
+  },
+  {
+    "id": "counting-game-1",
+    "category": "Indoor Activities",
+    "subcategory": "math",
+    "title": "Counting with Toys",
+    "ageRange": "2-4",
+    "materials": ["Toys"],
+    "instructions": [
+      "Gather a collection of toys.",
+      "Count the toys aloud with your child.",
+      "Sort the toys by color or size and count each group."
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "10-15 minutes",
+    "bestTime": "Anytime",
+    "suitableLocation": "Indoor",
+    "learningObjectives": ["Develop counting skills", "Learn number recognition", "Improve sorting skills"]
+  },
+  {
+    "id": "backyard-picnic-1",
+    "category": "Outdoor Activities",
+    "subcategory": "social",
+    "title": "Backyard Picnic",
+    "ageRange": "3-6",
+    "materials": ["Blanket", "Snacks", "Drinks"],
+    "instructions": [
+      "Pack a blanket and some snacks and drinks.",
+      "Spread the blanket out in your backyard.",
+      "Enjoy a picnic lunch or snack with your child."
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "30-45 minutes",
+    "bestTime": "Lunchtime or Afternoon",
+    "suitableLocation": "Outdoor",
+    "learningObjectives": ["Encourage social interaction", "Promote healthy eating habits", "Enjoy outdoor time"]
+  },
+  {
+    "id": "gardening-1",
+    "category": "Outdoor Activities",
+    "subcategory": "nature",
+    "title": "Planting Flowers",
+    "ageRange": "4-6",
+    "materials": ["Pot", "Soil", "Flower seeds or seedlings"],
+    "instructions": [
+      "Fill the pot with soil.",
+      "Plant the flower seeds or seedlings in the soil.",
+      "Water the plants regularly."
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "30-45 minutes",
+    "bestTime": "Morning or Afternoon",
+    "suitableLocation": "Outdoor",
+    "learningObjectives": ["Learn about plants", "Develop responsibility", "Enjoy outdoor time"]
+  },
+  {
+    "id": "puppet-show-1",
+    "category": "Indoor Activities",
+    "subcategory": "creative",
+    "title": "Puppet Show Fun",
+    "ageRange": "3-6",
+    "materials": ["Puppets", "Cardboard box (for a stage)"],
+    "instructions": [
+      "Create or gather some puppets.",
+      "Decorate a cardboard box to make a stage.",
+      "Put on a puppet show for your child."
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "20-30 minutes",
+    "bestTime": "Anytime",
+    "suitableLocation": "Indoor",
+    "learningObjectives": ["Encourage creativity", "Develop storytelling skills", "Promote social interaction"]
+  },
+  {
+    "id": "shape-sorter-1",
+    "category": "Indoor Activities",
+    "subcategory": "math",
+    "title": "Shape Sorter Challenge",
+    "ageRange": "1-3",
+    "materials": ["Shape sorter toy"],
+    "instructions": [
+      "Show your child how to use the shape sorter.",
+      "Encourage your child to match the shapes to the correct holes.",
+      "Praise your child for their efforts!"
+    ],
+    "imageUrl": "icons/budugu-192.png",
+    "timeEstimate": "10-15 minutes",
+    "bestTime": "Anytime",
+    "suitableLocation": "Indoor",
+    "learningObjectives": ["Learn shape recognition", "Develop problem-solving skills", "Improve fine motor skills"]
+  }
+]

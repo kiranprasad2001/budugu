@@ -1,49 +1,66 @@
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
-    mode: 'development', // Or 'production' for a production build
-    entry: './src/index.ts', // Your main TypeScript file
-    output: {
-        path: path.resolve(__dirname, 'dist'), // Output directory
-        filename: 'index.js', // Output filename
-    },
-    resolve: {
-        extensions: ['.ts', '.js'], // Resolve these extensions
-    },
-    module: {
-        rules: [
-            {
-                test: /\.ts$/,
-                use: 'ts-loader', // Use ts-loader for TypeScript files
-                exclude: /node_modules/,
-            },
-        ],
-    },
-    plugins: [
-        new CopyWebpackPlugin({
-            patterns: [
-                { from: 'src/activities', to: 'activities' },
-                { from: 'index.html', to: 'index.html' }, // Copies your index.html
-                { from: 'style.css', to: 'style.css' }, // Copies your style.css
-                { from: 'manifest.json', to: 'manifest.json' }, // Copies your manifest.json
-                { from: 'icons', to: 'icons' }, // Copies your icons folder
-                { from: 'src/sidebar.js', to: 'sidebar.js' }, // Copies your sidebar.js
-            ],
-        }),
+  mode: 'development',
+  entry: './src/index.ts',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'index.js',
+    clean: true, // Clean the output directory before each build
+  },
+  devtool: 'inline-source-map',
+  devServer: {
+    static: './dist',
+    hot: true,
+    port: 8000,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+      },
     ],
-    devServer: {
-        static: {
-            directory: path.join(__dirname, 'dist'),
-        },
-        compress: true,
-        port: 8000,
-    },
-        optimization: {
+  },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js'],
+  },
+  optimization: {
     minimizer: [
       // For webpack 5 use CssMinimizerPlugin
       new CssMinimizerPlugin(),
     ],
   },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+      chunkFilename: "[id].css",
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: "src/assets", to: "assets" },
+        { from: "index.html", to: "index.html" },
+        { from: "manifest.json", to: "manifest.json" },
+        { from: "icons", to: "icons" },
+        { from: 'src/sidebar.js', to: 'sidebar.js' },
+          { from: 'src/activity_data', to: 'activity_data' }, // Add to the activities
+      ],
+    }),
+  ],
 };

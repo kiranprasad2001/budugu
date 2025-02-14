@@ -1,19 +1,19 @@
 {
     "id": "finger-painting-1",
-    "category": "arts-and-crafts",
+    "category": "Indoor Activities",
     "subcategory": "painting",
     "title": "Finger Painting Fun",
     "ageRange": "2-4",
     "materials": ["Finger paints", "Large paper", "Apron or old clothes"],
     "instructions": [
-        "Cover the table with paper.",
-        "Put a small amount of each paint color on the paper.",
-        "Let your child use their fingers to create colorful designs!",
-        "Wash hands thoroughly afterwards."
+      "Cover the table with paper.",
+      "Put a small amount of each paint color on the paper.",
+      "Let your child use their fingers to create colorful designs!",
+      "Wash hands thoroughly afterwards."
     ],
-    "imageUrl": "images/finger-painting.jpg",
+    "imageUrl": "icons/budugu-192.png",
     "timeEstimate": "20-30 minutes",
     "bestTime": "Anytime",
     "suitableLocation": "Indoor",
     "learningObjectives": ["Develop fine motor skills", "Explore colors", "Encourage creativity"]
-}
+  }
