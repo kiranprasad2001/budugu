@@ -1,0 +1,39 @@
+[
+    {
+        "id": "finger-painting-1",
+        "category": "Indoor Activities",
+        "subcategory": "painting",
+        "title": "Finger Painting Fun",
+        "ageRange": "2-4",
+        "materials": ["Finger paints", "Large paper", "Apron or old clothes"],
+        "instructions": [
+            "Cover the table with paper.",
+            "Put a small amount of each paint color on the paper.",
+            "Let your child use their fingers to create colorful designs!",
+            "Wash hands thoroughly afterwards."
+        ],
+        "imageUrl": "icons/budugu-192.png",
+        "timeEstimate": "20-30 minutes",
+        "bestTime": "Anytime",
+        "suitableLocation": "Indoor",
+        "learningObjectives": ["Develop fine motor skills", "Explore colors", "Encourage creativity"]
+    },
+    {
+        "id": "nature-walk-1",
+        "category": "Outdoor Activities",
+        "subcategory": "nature",
+        "title": "Nature Walk Scavenger Hunt",
+        "ageRange": "3-6",
+        "materials": ["Scavenger hunt list", "Bag or basket"],
+        "instructions": [
+            "Create a list of items to find on a nature walk (e.g., a leaf, a rock, a feather).",
+            "Go on a nature walk and have your child find the items on the list.",
+            "Collect the items in a bag or basket."
+        ],
+        "imageUrl": "icons/budugu-192.png",
+        "timeEstimate": "30-45 minutes",
+        "bestTime": "Morning or Afternoon",
+        "suitableLocation": "Outdoor",
+        "learningObjectives": ["Learn about nature", "Develop observation skills", "Encourage physical activity"]
+    }
+]

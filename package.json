@@ -1,0 +1,23 @@
+{
+  "name": "budugu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

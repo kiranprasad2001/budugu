@@ -1,0 +1,20 @@
+{
+    "name": "Budugu",
+    "short_name": "Budugu",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#f0f0f0",
+    "theme_color": "#79c142", /* A pleasant green */
+    "icons": [
+      {
+        "src": "icons/budugu-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/budugu-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
